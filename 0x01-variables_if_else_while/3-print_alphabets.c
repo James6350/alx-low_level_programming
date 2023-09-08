@@ -9,17 +9,15 @@ int main(void)
 {
 	char letter;
 	int i, j;
-	
-	letter = 'a';
 
-	for( i = letter; i <= 'z'; i++)
+	letter = 'a';
+	for (i = letter; i <= 'z'; i++)
 	{
 		putchar(i);
 	}
 
 	letter = 'A';
-	
-	for( j = letter; j <= 'Z'; j++)
+	for (j = letter; j <= 'Z'; j++)
 	{
 		putchar(j);
 	}
@@ -27,4 +25,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
