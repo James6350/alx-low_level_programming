@@ -10,7 +10,6 @@ int main(void)
 	/*decleration*/
 	char letter;
 	int n;
-	
 	/*The loop to print in reverse*/
 	letter = 'z';
 	for (n = letter; n >= 'a'; n--)
@@ -19,4 +18,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}	
+}
