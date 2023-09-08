@@ -12,7 +12,6 @@ int main(void)
 
 	/*Assignments*/
 	letter = 'a';
-	
 	/*Looping to print alphabets except q and e*/
 	while (letter <= 'z')
 	{
