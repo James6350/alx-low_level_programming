@@ -1,7 +1,7 @@
-Learning Objectives
+**Learning Objectives**
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-General
+**General**
 What are nested loops and how to use them
 What is a function and how do you use functions
 What is the difference between a declaration and a definition of a function
@@ -9,8 +9,8 @@ What is a prototype
 Scope of variables
 What are the gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89
 What are header files and how to to use them with #include
-Requirements
-General
+**Requirements**
+**General**
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 All your files should end with a new line
@@ -26,7 +26,7 @@ The prototypes of all your functions and the prototype of the function _putchar 
 Don’t forget to push your header file
 
 
-This readme file contains
+**This are the tasks in this repository**
 0. _putchar
 mandatory
 Write a program that prints _putchar, followed by a new line.
@@ -151,4 +151,4 @@ You are not allowed to use any other library (You can’t use GMP etc…)
 You are not allowed to use long long, malloc, pointers, arrays/tables, or structures
 You are not allowed to hard code any Fibonacci number (except for 1 and 2)
 
-By: James Nzioka
+**By: James Nzioka**
