@@ -1,8 +1,11 @@
 #include "main.h"
 
 /**
- * print_line - draws a straight line in the terminal
- * @n: number of times the character _ should be printed
+ * _isupper - checks if a letter is in uppercase.
+ *
+ * @c: letter entered.
+ *
+ * Return: returns either 1 0r 0.
  */
 int _isupper(int c)
 {
