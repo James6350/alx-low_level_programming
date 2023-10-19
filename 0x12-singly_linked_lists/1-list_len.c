@@ -1,20 +1,19 @@
-#include <stdlib.h>
-#include "function_pointers.h"
-
+#include "lists.h"
 /**
- * array_iterator - executes a function given as a parameter
- * on each element of an array
- * @array: array to iterate over
- * @size: size of the array
- * @action: pointer to function used
+ * list_len - returns then number of elements in a list.
+ * @h: singly linked list.
+ * Return: number of elements in the list.
  */
-void array_iterator(int *array, size_t size, void (*action)(int))
+
+size_t list_len(const list_t *h)
 {
-	unsigned int i;
+	size_t number_of_nodes;
 
-	if (!array || !action)
-		return;
-
-	for (i = 0; i < size; i++)
-		action(array[i]);
+	number_of_nodes = 0;
+	while (h != NULL)
+	{
+		h = h->next;
+		number_of_nodes++;
+	}
+	return (number_of_nodes);
 }
